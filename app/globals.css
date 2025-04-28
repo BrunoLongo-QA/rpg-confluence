@@ -1,6 +1,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --basic-font-color: #d0d9de;
+    --basic-font-size: 20px;
+    --basic-font-family: 'Montserrat', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,6 +13,22 @@
   }
 }
 
+header {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  position: center;
+  color: var(--basic-font-color);
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  position: center;
+  color: var(--basic-font-color);
+  bottom: 0;
+}
 html,
 body {
   max-width: 100vw;
@@ -19,15 +38,13 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -39,4 +56,15 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.whiteGrid {
+  font-family: var(--basic-font-family);
+  font-size: var(--basic-font-size);
+  color: #000000;
+  line-height: 1.6;
+  background-color: #d7d7d7;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
