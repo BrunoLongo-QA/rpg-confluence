@@ -2,19 +2,27 @@
   padding: 2rem;
   font-family: var(--basic-font-family);
 }
-
-.image-grid {
-  display: flex;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1rem;
-  grid-template-columns: auto auto;
-}
-
-
-.gridItem h4 {
+.gridText {
   text-align: left;
+  font-size: var(--basic-font-size);
+  font-family: var(--basic-font-family);
 }
+
+.gridImages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.gridImages img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 
 .gridItem {
   display: grid;
@@ -22,6 +30,9 @@
   gap: 1rem;
 }
 
+.gridItem h4 {
+  text-align: left;
+}
 .gridItem img {
   width: 100%;
   height: auto;
@@ -38,5 +49,9 @@
 }
 
 .reinoFlag {
-  width: 50%;
+  width: var(--default-portrait-width);
+  }
+  
+  .rainhaPortrait {
+    width: var(--default-portrait-width);
 }

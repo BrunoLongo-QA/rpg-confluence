@@ -5,6 +5,7 @@
   --basic-font-color: #d0d9de;
     --basic-font-size: 20px;
     --basic-font-family: 'Montserrat', sans-serif;
+    --default-portrait-width: 50%;
 }
 
 @media (prefers-color-scheme: dark) {
