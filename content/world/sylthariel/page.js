@@ -1,6 +1,6 @@
 import styles from '@/app/docs/world/layout.module.css';
 
-export default function ReinoUm() {
+export default function SyltharielPage() {
   return (
     <section>
       <br />

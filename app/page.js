@@ -1,6 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
     <div style={{ textAlign: 'center' }}>
@@ -16,11 +13,17 @@ export default function Home() {
       <p> Esse é um projeto pessoal e não possui objetivo de lucro. Todos os materiais são de minha autoria e compartilhados gratuitamente fique a vontade para fazer fork do projeto e criar seu próprio site.</p>
       <br />
       <p> Qualquer dúvida ou sugestão, entre em contato comigo.</p>
-      <br />
+
       <a href="https://www.linkedin.com/in/bruno-longo-qa/">LinkedIn</a>
       <br />
-
-      <p> Obrigado por visitar o site.</p>
+      <br />
+      <a href="https://github.com/BrunoLongo-QA">GitHub Profissional</a>
+      <br />
+      <br />
+      <a href="https://github.com/BrunoLongo-QA/rpg-confluence">GitHub RPG Confluence</a>
+      <br />
+      <br />
+      <p> Obrigado por visitar <strong>RPG Confluence</strong></p>
       <br />
       <p> Até a próxima!</p>
 
